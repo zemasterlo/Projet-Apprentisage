@@ -1,0 +1,13 @@
+utilisation yolo26n
+
+result.png : il faut augmenter les epochs, on peut voir avec la train qu'il peut encore s'améliorer
+boxprcurve/boecurve : recall vraiment pas ouf
+confusionmatrix : on peut voir la diagonale bonne, mais background mauvais, pas de detections nombreuses
+boxf1curve : pingpong tres mauvais : petit
+
+il faut augmenter le nombre de transformations d'images et aussi le nombre d'epoch, quitte
+à prendre un plus petit model car ça prend trop de temps
+
+utilisation yolo26n avec  plus de transformation d'imagen, echec, le modele s'est stoppé
+
+utilisation de yolo26s....
